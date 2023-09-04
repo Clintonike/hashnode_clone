@@ -1,0 +1,259 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box; }
+
+body {
+  font-family: sans-serif; }
+
+#navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 15px 20px;
+  border-bottom: 1px solid rgba(226, 232, 240, 0.8);
+  width: 100%; }
+  #navbar .logo h1 {
+    color: #000;
+    font-size: 30px;
+    font-weight: bolder; }
+    #navbar .logo h1 i {
+      color: #2563EB; }
+  #navbar .link ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+    #navbar .link ul li {
+      color: #64748b;
+      padding-right: 50px;
+      font-weight: bold;
+      font-size: 14px; }
+  #navbar .icons {
+    display: flex;
+    padding-right: 30px;
+    align-items: center; }
+    #navbar .icons i {
+      margin-right: 40px;
+      font-size: 25px;
+      color: #64748b; }
+    #navbar .icons p {
+      margin-right: 50px;
+      border: 1px solid rgba(226, 232, 240, 0.8);
+      padding: 10px 20px;
+      border-radius: 20px;
+      color: #fff;
+      background: #2563EB; }
+    #navbar .icons .box {
+      width: 35px;
+      height: 35px;
+      border-radius: 50%;
+      background: #64748b; }
+
+#body {
+  display: flex;
+  background-color: #f2f7f8;
+  height: auto; }
+  #body .explore {
+    width: 15%;
+    margin: 20px 10px;
+    padding: 20px;
+    padding-right: 0;
+    background-color: #fff;
+    border-radius: 10px; }
+    #body .explore .explore-content {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 100%; }
+      #body .explore .explore-content p {
+        margin-bottom: 20px; }
+        #body .explore .explore-content p i {
+          margin-right: 10px;
+          font-size: 18px; }
+        #body .explore .explore-content p:hover {
+          color: #2563EB;
+          cursor: pointer;
+          border-right: 2px solid #2563EB; }
+    #body .explore .trends {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 100%; }
+      #body .explore .trends h4 {
+        margin: 30px 0; }
+      #body .explore .trends p {
+        margin-bottom: 20px; }
+        #body .explore .trends p:hover {
+          color: #2563EB;
+          cursor: pointer;
+          border-right: 2px solid #2563EB; }
+  #body .blog {
+    width: 60%;
+    margin: 20px 10px; }
+    #body .blog .tech-blogs {
+      display: flex;
+      flex-direction: column;
+      background: #fff;
+      border-radius: 10px;
+      padding: 40px;
+      justify-content: center;
+      align-items: center;
+      margin-bottom: 20px; }
+      #body .blog .tech-blogs h1 {
+        margin-bottom: 10px; }
+      #body .blog .tech-blogs p {
+        line-height: 1.5rem;
+        padding: 5px;
+        text-align: center; }
+    #body .blog .tags {
+      background-color: #fff;
+      border-radius: 10px; }
+      #body .blog .tags header {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 10px;
+        padding-top: 20px;
+        border-bottom: 1px solid #f2f7f8; }
+        #body .blog .tags header p {
+          margin-right: 20px;
+          text-align: center;
+          padding: 10px 0; }
+          #body .blog .tags header p:hover {
+            color: #2563EB;
+            border-bottom: 2px solid #2563EB;
+            cursor: pointer; }
+      #body .blog .tags .trending-tags .text {
+        display: flex;
+        padding: 15px 10px 10px;
+        align-items: center; }
+        #body .blog .tags .trending-tags .text h4 {
+          margin-right: 15px; }
+        #body .blog .tags .trending-tags .text button {
+          padding: 10px 15px;
+          border-radius: 25px;
+          background-color: #fff;
+          border: 1px solid #2563EB;
+          color: #2563EB;
+          font-size: 16px; }
+      #body .blog .tags .trending-tags .languages {
+        display: grid;
+        grid-template-columns: repeat(2, auto); }
+        #body .blog .tags .trending-tags .languages .lang-items {
+          margin: 10px;
+          background-color: #f2f7f8;
+          padding: 15px 10px;
+          border-radius: 10px;
+          display: flex;
+          justify-content: space-between;
+          align-items: center; }
+          #body .blog .tags .trending-tags .languages .lang-items i {
+            background-color: #fff;
+            padding: 5px;
+            color: #2563EB;
+            border-radius: 50%; }
+  #body .stats {
+    width: 25%;
+    margin: 20px 10px; }
+    #body .stats .pro {
+      padding: 20px;
+      background-color: #fff;
+      border-radius: 10px;
+      margin-bottom: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center; }
+      #body .stats .pro h4 {
+        text-align: center;
+        margin-bottom: 15px;
+        color: #2563EB; }
+      #body .stats .pro p {
+        margin-bottom: 15px;
+        line-height: 1.5rem;
+        padding: 0 10px;
+        padding-right: 50px; }
+      #body .stats .pro .pro-button {
+        display: flex;
+        justify-content: center;
+        padding: 10px 0; }
+        #body .stats .pro .pro-button .btn-a {
+          background: #2563EB;
+          color: #fff;
+          border: 1px solid #2563EB;
+          border-radius: 25px; }
+        #body .stats .pro .pro-button .btn-b {
+          background: #fff;
+          color: #334155;
+          border: 1px solid #334155;
+          border-radius: 25px; }
+        #body .stats .pro .pro-button button {
+          padding: 10px 10px;
+          margin-right: 10px;
+          font-size: 15px; }
+    #body .stats .blog-stats {
+      background-color: #fff;
+      border-radius: 10px;
+      padding-bottom: 10px; }
+      #body .stats .blog-stats .blog-text {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 20px; }
+        #body .stats .blog-stats .blog-text button {
+          padding: 10px 10px;
+          background-color: #fff;
+          color: #000;
+          font-size: 15px;
+          border: 1px solid #334155;
+          border-radius: 25px; }
+      #body .stats .blog-stats .views {
+        display: flex;
+        justify-content: space-around;
+        margin: 0 20px;
+        align-items: center;
+        text-align: center; }
+        #body .stats .blog-stats .views p {
+          border-bottom: 1px solid #334155;
+          padding-bottom: 10px;
+          padding-right: 20px;
+          margin-bottom: 10px;
+          text-align: center;
+          align-items: center; }
+          #body .stats .blog-stats .views p:hover {
+            color: #2563EB;
+            border-bottom: 2px solid #2563EB;
+            cursor: pointer; }
+      #body .stats .blog-stats .days {
+        display: flex;
+        justify-content: space-around;
+        border: 1px solid #334155;
+        margin: 0 20px;
+        padding: 10px 20px;
+        border-radius: 10px; }
+        #body .stats .blog-stats .days p:hover {
+          color: #2563EB;
+          cursor: pointer; }
+
+@media (max-width: 500px) {
+  * {
+    overflow-x: hidden; }
+  #navbar {
+    display: none; }
+  #body {
+    display: block; }
+    #body .explore {
+      width: 100%; }
+      #body .explore .explore-content {
+        display: block; }
+    #body .blog {
+      width: 100%; }
+      #body .blog .tags header {
+        display: block; }
+      #body .blog .tags .trending-tags .languages {
+        display: flex;
+        flex-direction: column; }
+        #body .blog .tags .trending-tags .languages .lang-items {
+          margin: 20px; }
+    #body .stats {
+      width: 100%; } }

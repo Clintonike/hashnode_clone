@@ -1,0 +1,40 @@
+@media(max-width:500px){
+  *{
+    overflow-x: hidden;
+  }
+  
+  #navbar{
+    display: none;
+  }
+  
+  #body{
+    display: block;
+    .explore{
+      width: 100%;
+      .explore-content{
+        display: block;
+      }
+    }
+    .blog{
+      width: 100%;
+      .tags{
+        header{
+          display: block;
+        }
+        
+        .trending-tags{
+          .languages{
+            display: flex;
+            flex-direction: column;
+            .lang-items{
+              margin: 20px;
+            }
+          }
+        }
+      }
+    }
+    .stats{
+      width: 100%;
+    }
+  }
+}
